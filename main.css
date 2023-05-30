@@ -1,0 +1,31 @@
+.container{
+  border: 2px solid black;
+  margin: 30px;
+}
+
+.cuadrado{
+  height: 50px;
+  width: 50px;
+  background-color: aqua;
+  margin: 10px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  /* flex-flow: column-reverse wrap; */
+  justify-content: center; /* eje principal*/
+  align-items: flex-start; /* eje secundario */
+  
+}
+
+.order-1{
+  background-color: red;
+  order: -1;
+}
+
+.order-2{
+  background-color: green;
+  order: -2;
+}

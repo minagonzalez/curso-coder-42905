@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    background-color: aqua;
+    height: 200px;
+    margin: 10px;
+}
+
+nav, article, aside{
+    background-color: blueviolet;
+    height: 250px;
+}
+
+main{
+    display: flex;
+}
+
+nav, aside{
+    width: 25%;
+    margin: 10px;
+}
+
+article{
+    width: 50%;
+    margin: 10px;
+}
